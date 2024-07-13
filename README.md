@@ -11,6 +11,8 @@ Initialization: Nodes (neurons) in the SOM are initialized with random weight ve
 <br>
 <br>
 Training:
+<br>
+<br>
 ---Competition: For each input vector, find the best matching unit (BMU), the neuron whose weight vector is closest to the input vector.
 <br>
 ---Cooperation: Update the BMU and its neighboring neurons to become more like the input vector. The neighborhood function determines the extent of this update.
